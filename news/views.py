@@ -36,7 +36,7 @@ def search_results(request):
         return render(request, 'all-news/search.html',{"message":message,"articles": searched_articles})
 
     else:
-        message = "You haven't searched for any term"
+        message = "You haven't searched for any term."
         return render(request, 'all-news/search.html',{"message":message})
 
 def article(request,article_id):

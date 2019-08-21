@@ -18,11 +18,6 @@ class EditorTestClass(TestCase):
         editors = Editor.objects.all()
         self.assertTrue(len(editors) > 0)
 
-    # def test_delete_method(self):
-    #     self.james.delete_editor()
-    #     editors = Editor.objects.all()
-    #     self.assertTrue(len(editors) > 0)
-
 
 class ArticleTestClass(TestCase):
     
@@ -56,17 +51,3 @@ class ArticleTestClass(TestCase):
         Editor.objects.all().delete()
         tags.objects.all().delete()
         Article.objects.all().delete()
-
-# class TagsTestCase(TestCase):
-
-#     def setUp(self):
-#         self.tag1 = Tags(name = "kitag")
-
-#     #Testing instance 
-#     def test_instance(self):
-#         self.assertTrue(isinstance(self.tag1, Tags))
-
-#     def test_save_tag_method(self):
-#         self.tag1.save()
-#         kitag = Tags.objects.all()
-#         self.assertTrue(len(kitag)> 0)
