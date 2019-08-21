@@ -1,0 +1,1 @@
+web: gunicorn tribubne.wsgi --log-file -
