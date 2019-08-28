@@ -1,5 +1,4 @@
-#!/home/moringa/Desktop/The-Moringa-Tribune/virtual/bin/python3.6
-
+#!/home/moringa/Desktop/temp/django/The-Moringa-Tribune/virtual/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
